@@ -33,7 +33,7 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 588px; /*ajusta layout para telas maiores */
   margin: 56px auto 0px;
   padding: 0 0 24px;
 }
