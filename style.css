@@ -37,7 +37,7 @@ body * {
   width: 100%;
   max-width: 588px; /*ajusta layout para telas maiores */
   margin: 56px auto 0px;
-  padding: 0 0 24px;
+  padding: 0 20px 24px;
 }
 
 /* PROFILE */
@@ -102,7 +102,6 @@ body * {
 /* LIST */
 ul {
   list-style: none;
-
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -162,7 +161,7 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 375px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
